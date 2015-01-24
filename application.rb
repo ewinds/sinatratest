@@ -4,7 +4,7 @@ configure do
   set :show_exceptions, development?
   set :raise_errors,    development?
   set :logging,         true
-  set :static,          false # your upstream server should deal with those (nginx, Apache)
+  set :static,          true # your upstream server should deal with those (nginx, Apache)
 end
 
 configure :production do

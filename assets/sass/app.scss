@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot?o5yjsk');
+	src:url('icomoon.ttf?o5yjsk') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+	content: "\e024";
+}
+
+.icon-location:before {
+	content: "\e070";
+}
+
+.icon-head:before {
+	content: "\e074";
+}
+
+.icon-tag:before {
+	content: "\e085";
+}
+
+.icon-bag:before {
+	content: "\e106";
+}
+
+.icomoon {
+	font-size: 24px;
+}
+
+.tabbar a.active {
+	color: #ff425e;
+}
+
+.slider-banner {
+	height: 143px;
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.slider-pagination-bullet {
+	opacity: 1;
+	background: #fff;
+}
+
+.slider-pagination-active {
+    opacity: 1;
+    background: #ff425e;
+}

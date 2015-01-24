@@ -7,3 +7,7 @@ bin/*
 .bundle/
 config/database.yml
 config/app_config.yml
+node_modules
+.sass-cache
+.vagrant
+sinatra.box
